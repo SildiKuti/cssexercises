@@ -1,0 +1,38 @@
+#green{
+    grid-area: green ;
+}
+
+#yellow{
+    grid-area: yellow;
+}
+
+#red{
+    grid-area: red;
+}
+
+#orange{
+    grid-area: orange;
+}
+
+#blue{
+    grid-area: blue;
+}
+#yellow ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#red ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 200px 200px 200px);
+    grid-template-rows:150px 300px 150px;
+    grid-template-areas:
+    "green green green"
+    "yellow red blue"
+    "orange orange blue";
+}
